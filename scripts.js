@@ -1,10 +1,27 @@
 /*
-  Solicite 2 numeros, faca a soma deles 
-  e apresente o resultado final ao usuario
-*/
 
-alert('Iremos fazer uma soma')
-let numberOne = prompt("Digite um numero:")
-let numberTwo = prompt("Digite outro numero:")
-let result = Number(numberOne) + Number(numberTwo)
-alert("O resultado da soma e: " + result)
+  Capturar 2 numeros
+  e fazer as operacoes matematicas
+  de soma, subtracao, multiplicacao,
+  divisao e resto da divisao.
+
+  e para cada operacao, mostrar um alerta com o resultado
+  */
+
+let firstNumber = prompt('Digite o primeiro numero:')
+let secondNumber = prompt('Digite o segundo numero:')
+
+firstNumber = Number(firstNumber)
+secondNumber = Number(secondNumber)
+
+const sum = firstNumber + secondNumber
+const sub = firstNumber - secondNumber
+const multi = firstNumber * secondNumber
+const div = firstNumber / secondNumber
+const restDiv = firstNumber % secondNumber
+
+alert('Soma: ' + sum)
+alert('Subtracao: ' + sub)
+alert('multiplicacao: ' + multi)
+alert('Divisao: ' + div)
+alert('Resto da divisao: ' + restDiv)
