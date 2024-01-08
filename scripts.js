@@ -18,10 +18,10 @@ const sum = firstNumber + secondNumber
 const sub = firstNumber - secondNumber
 const multi = firstNumber * secondNumber
 const div = firstNumber / secondNumber
-const restDiv = firstNumber % secondNumber
+const rest = firstNumber % secondNumber
 
 alert('Soma: ' + sum)
-alert('Subtracao: ' + sub)
-alert('multiplicacao: ' + multi)
-alert('Divisao: ' + div)
-alert('Resto da divisao: ' + restDiv)
+alert('Sub: ' + sub)
+alert('Multi: ' + multi)
+alert('Div: ' + div)
+alert('Resto: ' + rest)
